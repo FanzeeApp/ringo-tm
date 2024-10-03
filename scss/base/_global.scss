@@ -56,6 +56,158 @@
 .msection {
   background: red;
 }
+
 .rsection {
-  background: blue;
+  .rproject {
+    background: #3d4a39;
+  }
+  .rproject__wrapper {
+  }
+
+  .rproject__text__card__title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 80px;
+    padding-top: 80px;
+  }
+
+  .rproject__text__card__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.2px;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .rproject__wrapper__input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #e0e0e0;
+    background-color: transparent;
+    color: #e0e0e0;
+    margin-top: 40px;
+  }
+
+  .rproject__text__card__span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .rproject__text__card__im {
+    margin-top: 27px;
+  }
+
+  .rproject__text__card__btn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 40px;
+    background: #ae7b3c;
+    color: #ffffff;
+    padding: 22px 87px;
+  }
+
+  .rproject__img {
+    margin-top: 60px;
+  }
+
+  .rproject__img__tablet {
+    display: none;
+  }
+
+  .rproject__img__1000px {
+    display: none;
+  }
+
+
+
+  .rwork__wrapper {
+    display: grid;
+  }
+  .rwork__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.4px;
+    text-align: center;
+    color: #282b22;
+    margin-top: 80px;
+  }
+
+  .rwork__card {
+    margin-top: 50px;
+  }
+
+  .rwork__card__theme {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 25px;
+    color: #282B22;
+  }
+
+  .rwork__card__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.2px;
+    text-align: left;
+    margin-top: 15px;
+    color: #282B22;
+  }
+
+  @include mobile-large {
+    .rproject__img {
+      display: none;
+    }
+
+    .rproject__img__tablet {
+      display: block;
+      width: 320px;
+      height: 687px;
+    }
+    .rproject__wrapper {
+      display: flex;
+    }
+
+    .rwork__wrapper{
+      display: grid;
+      grid-template-columns: repeat(2,2fr);
+    }
+  }
+
+  @include tablet {
+    .rproject__img__tablet {
+      display: none;
+    }
+
+    .rproject__img__1000px {
+      display: block;
+    }
+  }
+
+  @include desktop {
+    .rproject__wrapper {
+      gap: 100px;
+    }
+    .rproject__img__1000px {
+      width: 800px;
+      height: 696px;
+    }
+    .rwork__wrapper{
+      display: grid;
+      gap: 80px;
+      grid-template-columns: repeat(4,4fr);
+      margin-top: 50px;
+    }
+  }
 }
