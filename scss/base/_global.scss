@@ -92,13 +92,6 @@
       }
     }
   }
-  @include mobile-large {
-    .cards {
-      display: flex;
-      align-items: center;
-      justify-content: end;
-    }
-  }
 }
 
 .msection {
@@ -177,8 +170,6 @@
     display: none;
   }
 
-
-
   .rwork__wrapper {
     display: grid;
   }
@@ -201,7 +192,7 @@
     line-height: 18px;
     text-align: left;
     margin-top: 25px;
-    color: #282B22;
+    color: #282b22;
   }
 
   .rwork__card__text {
@@ -210,7 +201,7 @@
     line-height: 23.2px;
     text-align: left;
     margin-top: 15px;
-    color: #282B22;
+    color: #282b22;
   }
 
   @include mobile-large {
@@ -227,9 +218,9 @@
       display: flex;
     }
 
-    .rwork__wrapper{
+    .rwork__wrapper {
       display: grid;
-      grid-template-columns: repeat(2,2fr);
+      grid-template-columns: repeat(2, 2fr);
     }
   }
 
@@ -251,10 +242,10 @@
       width: 800px;
       height: 696px;
     }
-    .rwork__wrapper{
+    .rwork__wrapper {
       display: grid;
       gap: 80px;
-      grid-template-columns: repeat(4,4fr);
+      grid-template-columns: repeat(4, 4fr);
       margin-top: 50px;
     }
   }
