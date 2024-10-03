@@ -20,3 +20,29 @@
     @content;
   }
 }
+
+@media (max-width: 640px) {
+  .women {
+    display: none;
+  }
+  .chiziq_new,
+  .tepa,
+  .chiziq {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .upper_part {
+    margin-top: 40px;
+  }
+  .middle_part {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  h2,
+  h1,
+  p {
+    font-size: 20px;
+  }
+}
