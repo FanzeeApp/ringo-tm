@@ -1,0 +1,61 @@
+.cardsection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  h1 {
+    margin: 50px 0;
+    /* заголовок_H2 */
+    color: rgb(40, 43, 34);
+    font-family: Raleway;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 59px;
+    .cardsfull {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      margin-bottom: 100px;
+      .cardnumbers {
+        color: rgb(61, 74, 57);
+        font-family: Raleway;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      .cardtexts {
+        /* Заголовок_H5 */
+        color: rgb(61, 74, 57);
+        font-family: Raleway;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.fnzsection {
+  background: black;
+}
+
+.msection {
+  background: red;
+}
+.rsection {
+  background: blue;
+}
