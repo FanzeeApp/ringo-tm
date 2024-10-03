@@ -19,6 +19,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 59px;
     .cardsfull {
       display: flex;
@@ -54,6 +55,7 @@
   .fnzcard {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 72px;
@@ -68,6 +70,7 @@
     }
     .cardicons {
       display: flex;
+      justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       gap: 174px;
@@ -245,6 +248,119 @@
       gap: 80px;
       grid-template-columns: repeat(4, 4fr);
       margin-top: 50px;
+    }
+  }
+}
+
+.sectionimgf {
+  background: #fff;
+  .column-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+    .text-f {
+      font-family: Raleway;
+      font-size: 46px;
+      font-weight: 600;
+      margin-top: 170px;
+      margin-bottom: 40px;
+    }
+    .imgtwo-f {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 32px;
+      .imgcard-f {
+        padding: 0 10px;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 30px;
+        .teo-textf {
+          display: flex;
+          align-items: start;
+          flex-direction: column;
+          .future-textf {
+            font-family: Raleway;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: left;
+            color: #282b22;
+          }
+          .etap-f {
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            text-align: left;
+            opacity: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.end-sectionff {
+  background: #f3f3f3;
+  width: 100%;
+  .rowdivff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 129px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .boshcard-textff {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 23px;
+      .h2ff {
+        font-family: Raleway;
+        font-size: 46px;
+        font-weight: 600;
+        line-height: 57.5px;
+        text-align: center;
+      }
+      .pff {
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: center;
+        opacity: 80%;
+      }
+      button {
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: left;
+        width: Fixed (260px) px;
+        height: Hug (60px) px;
+        top: 6651px;
+        left: 670px;
+        padding: 22px 56px 22px 56px;
+        gap: 10px;
+        opacity: 0px;
+        background-color: #ae7b3c;
+      }
+    }
+    .bosh-cardff {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 }

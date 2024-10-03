@@ -7,6 +7,13 @@
 @include mobile-large {
   .container {
     max-width: 600px;
+    .imgcard-f {
+      padding: 0 10px;
+      img {
+        width: 233px;
+        height: 183px;
+      }
+    }
   }
 }
 
@@ -21,6 +28,3 @@
     max-width: 1200px;
   }
 }
-
- 
-
